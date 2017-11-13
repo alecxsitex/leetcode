@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var num = 123
-	fmt.Println(num)
+	fmt.Println(reverse(num))
 }
 func reverse(x int) int {
 	var minus = false
