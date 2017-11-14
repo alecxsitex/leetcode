@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var num = []int32{0}
+	var num = []int{0}
 	fmt.Println(plusOne(num))
 }
 
