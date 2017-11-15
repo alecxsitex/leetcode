@@ -28,13 +28,13 @@ func addBinary(a string, b string) string {
 			bdigit = 0
 
 			if apos >= 0 {
-				if a[apos] == []byte("1")[0] {
+				if a[apos] == 49 {
 					adigit = 1
 				}
 				apos--
 			}
 			if bpos >= 0 {
-				if b[bpos] == []byte("1")[0] {
+				if b[bpos] == 49 {
 					bdigit = 1
 				}
 				bpos--
